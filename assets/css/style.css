@@ -107,8 +107,8 @@ body { background: var(--white); }
   width: 40vw;
 }
 .logo img {
-  height: 5rem;
-  width: 5rem;
+  height: 2rem;
+  width: 2rem;
 }
 .container { padding-inline: 15px; }
 
@@ -194,9 +194,9 @@ body { background: var(--white); }
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--white);
+  background: var(--eerie-black);
   padding-block: 20px;
-  box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.05);
+  box-shadow: 0 1px 2px hsla(0, 7%, 94%, 0.05);
   height: 65px;
   overflow: hidden;
   transition: 0.5s ease-in-out;
@@ -231,6 +231,7 @@ body { background: var(--white); }
   visibility: hidden;
   opacity: 0;
   transition: 0.5s ease-in-out;
+  color:black;
 }
 
 .header.active .navbar {
@@ -240,7 +241,7 @@ body { background: var(--white); }
 
 .navbar-link,
 .header-action-link {
-  color: var(--cool-black);
+  color: var(--white);
   font-size: var(--fs-8);
   font-family: var(--ff-poppinsbold);
   padding-block: 8px;
