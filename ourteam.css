@@ -926,3 +926,33 @@ body { background: var(--white); }
   .footer-list { width: 170px; }
 
 }
+
+
+#preloader{
+  background:#ffffff url(assets/images/logo.png) no-repeat center center;
+  height: 100vh;
+  background-size: 15%;
+  width:100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+.social-list {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px;
+}
+
+.social-link {
+  color: var(--majorelle-blue);
+  font-size: 25px;
+  transition: var(--transition);
+}
+
+.social-link:is(:hover, :focus) { color: var(--raisin-black-1); }
+/* /....../ */
+.menu-toggle-btn { font-size: 35px;
+  margin-bottom: 20px; 
+color:white}
