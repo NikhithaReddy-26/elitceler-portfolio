@@ -706,7 +706,7 @@ textarea.input-field {
 
 .contact .btn-primary ion-icon { --ionicon-stroke-width: 40px; }
 
-.contact-list li:not(:last-child) { margin-bottom: 25px; }
+.contact-list li:not(:last-child) { margin-bottom: 35px; }
 
 .contact-link {
   color: var(--cool-gray);
