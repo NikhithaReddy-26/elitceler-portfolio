@@ -113,11 +113,12 @@ body { background: var(--white); }
   padding: 1vh 1vw;
   text-align: center;
   width: 40vw;
+  
 }
 .logo img {
   /* margin-bottom: 20px; */
   height: 2rem;
-  width: 2rem;
+  width: 4rem;
 }
 .container { padding-inline: 15px; }
 
