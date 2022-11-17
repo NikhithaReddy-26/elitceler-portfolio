@@ -32,6 +32,30 @@
 </head>
 
 <body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBu2Sdpt5bpC-3xf1gujcoDZc5R1aO7P8I",
+      authDomain: "elitceler-portfolio.firebaseapp.com",
+      databaseURL: "https://elitceler-portfolio-default-rtdb.firebaseio.com",
+      projectId: "elitceler-portfolio",
+      storageBucket: "elitceler-portfolio.appspot.com",
+      messagingSenderId: "742592825110",
+      appId: "1:742592825110:web:d81fd46833b55feaeb3237",
+      measurementId: "G-JEE873NTGG"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 
   <!-- 
     - HEADER
@@ -594,7 +618,7 @@ End-User Insights to Reality
 
           <div class="contact-wrapper">
 
-            <form action="" class="contact-form">
+            <form action="" class="contact-form" id="contact-form">
 
               <div class="wrapper-flex">
 
@@ -834,6 +858,10 @@ End-User Insights to Reality
   <!-- 
     - custom js link
   -->
+  
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="assets/css/main.js"></script>
   <script src="assets/css/script.js"></script>
 
   <!-- 
@@ -841,7 +869,8 @@ End-User Insights to Reality
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  
+  
 </body>
 
 </html>
