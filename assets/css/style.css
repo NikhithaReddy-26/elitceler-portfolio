@@ -113,6 +113,7 @@ body { background: var(--white); }
   padding: 1vh 1vw;
   text-align: center;
   width: 40vw;
+  margin-top: -2rem;
   
 }
 .logo img {
@@ -233,7 +234,8 @@ body { background: var(--white); }
 }  */
 .menu-toggle-btn { font-size: 35px;
   margin-bottom: 20px; 
-color:white}
+color:white;
+margin-right: 40px;}      /*--*/
 .navbar {
   position: absolute;
   width: 100%;
@@ -281,7 +283,7 @@ text-align: justify; }
 
 .hero-title { margin-bottom: 10px; 
 font-family: var(--ff-poppinsbold); 
-text-align: justify;}
+text-align: center;}
 
 .hero-text {
   font-family: var(--ff-poppinsbold);
@@ -538,7 +540,10 @@ text-align: justify;}
 .tech-list {
   display: flex;
   flex-wrap:wrap;
-  gap: 20px;
+  /*gap: 20px;
+*/
+  align-content: space-around;
+  justify-content: center;
 }
 
 .tech-card {
@@ -547,6 +552,7 @@ text-align: justify;}
   box-shadow: 0 3px 12px hsla(233, 77%, 10%, 0.06);
   border-radius: 4px;
   transition: var(--transition);
+  width: 135px;
 }
 
 
@@ -822,7 +828,9 @@ footer .logo { margin-bottom: 25px; }
   /**
    * HERO
    */
-
+  .logo{
+    margin-top: -2rem;
+  }
   .hero-form { position: relative; }
 
   /* .email-field {
@@ -864,8 +872,10 @@ footer .logo { margin-bottom: 25px; }
   /**
    * CUSTOM PROPERTY
    */
-
-  :root {
+   .logo{
+   margin-top: -2rem;
+}
+   :root {
 
     /**
      * typography
@@ -907,7 +917,10 @@ footer .logo { margin-bottom: 25px; }
   /**
    * REUSED STYLE
    */
-
+   .logo{
+    
+    margin-top: 0rem;
+  }
   .container { max-width: 720px; }
 
   .section-text { max-width: 645px; }
@@ -1147,7 +1160,7 @@ footer .logo { margin-bottom: 25px; }
   /**
    * REUSED STYLE
    */
-
+  
   .container { max-width: 1150px; }
 
 

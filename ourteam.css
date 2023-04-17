@@ -97,9 +97,9 @@ body { background: var(--white); }
 
 
 .logo {
-  padding: 1vh 1vw;
+  padding: 2vh 1vw;
   text-align: center;
-  width: 40vw;
+  
 }
 .logo img {
   height: 2rem;
@@ -564,6 +564,7 @@ body { background: var(--white); }
     section {
       padding: 1em 7em;
     }
+   
   }
   @media screen and (min-width: 992px) {
     section {
@@ -592,7 +593,9 @@ body { background: var(--white); }
   /**
    * HERO
    */
-
+   .logo{
+    margin-top: -2rem;
+  }
   .hero-form { position: relative; }
 
   .email-field {
@@ -606,7 +609,9 @@ body { background: var(--white); }
     right: 5px;
     padding-block: 12.5px;
   }
-
+  .logo{
+    margin-top:-2rem;
+  }
 
 
   /**
@@ -643,7 +648,9 @@ body { background: var(--white); }
     --fs-1: 52px;
 
   }
-
+  .logo{
+    margin-top:-2rem;
+  }
 
 
   /**
@@ -676,11 +683,14 @@ body { background: var(--white); }
   /**
    * REUSED STYLE
    */
-
-  .container { max-width: 720px; }
+  
+  .container { 
+    max-width: 720px; }
 
   .section-text { max-width: 645px; }
-
+  .logo{
+    margin-top:-2rem;
+  }
 
 
   /**
@@ -743,7 +753,9 @@ body { background: var(--white); }
 
   .section-text { max-width: 450px; }
 
-
+  .logo{
+    margin-top: 0rem;
+  }
 
   /**
    * HEADER
@@ -908,7 +920,9 @@ body { background: var(--white); }
    */
 
   .container { max-width: 1150px; }
-
+  .logo{
+    margin-top: 0rem;
+  }
 
 
   /**
